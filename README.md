@@ -13,10 +13,13 @@ Internal port is port 80.
 # Tested
 Currently tested on Angular 9+. 
 
-# Building
-- Clone the ropo
+# Building from source
 
-`docker build -t {TAG NAME} .`
+`$ git clone https://github.com/rmalcomber/docker-angular-base`
+
+`$ cd docker-angular-base`
+
+`$ docker build -t {TAG NAME} .`
 
 # Todo
 - Create tests
